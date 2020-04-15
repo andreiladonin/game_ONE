@@ -19,7 +19,7 @@ namespace game
             Console.WriteLine("У игрока NoName клавиша 'space' ");
             Console.WriteLine("Можно играть двоим  после окончание таймера вы должны нажать на свои кнокпи" );
             Console.WriteLine("Кто нажмет первый на свою конпку тот на несет врагу своему -10хр");
-            Console.WriteLine("У кого меньше хр тот проигрываетя, всего 5 раундов. Продолжить ");
+            Console.WriteLine("У кого меньше хр тот проигрывает, всего 5 раундов. Продолжить ");
 
             Console.ReadKey();
             
@@ -61,7 +61,7 @@ namespace game
                     player_two.health = count_two;
 
                 }
-
+              // статистика каждого раунда
                 Console.WriteLine("Статистика Round {0} у игрока {1} health: {2}, игоок {3}  health: {4} ",
                     i, player_one.name,  player_one.health, player_two.name, player_two.health);
               
